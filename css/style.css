@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f4f4f4;
     line-height: 1.5;
@@ -24,6 +28,8 @@ h5,
 h6 {
     font-weight: 700;
 }
+
+/* CV */
 
 .cv {
     max-width: 800px;
@@ -83,4 +89,31 @@ h6 {
 
 .normal {
     font-weight: normal;
+}
+
+/* Menu */
+
+.menu {
+    background-color: #455bc4;
+    padding: 0 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+.menu .active a {
+    background: white;
+    color: black;
 }

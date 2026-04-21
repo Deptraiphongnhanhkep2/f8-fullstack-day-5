@@ -1,6 +1,6 @@
 body {
-    background-color: #ccc;
-    line-height: 1.3;
+    background-color: #f4f4f4;
+    line-height: 1.5;
     font-family:
         system-ui,
         -apple-system,
@@ -13,6 +13,7 @@ body {
         "Open Sans",
         "Helvetica Neue",
         sans-serif;
+    color: #333;
 }
 
 h1,
@@ -27,7 +28,7 @@ h6 {
 .cv {
     max-width: 800px;
     min-height: 100px;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 45px 70px;
     background-color: white;
 }
@@ -54,6 +55,7 @@ h6 {
 
 .cv-heading-3 {
     text-align: justify;
+    margin-top: 20px;
 }
 
 .full-width {
@@ -67,4 +69,18 @@ h6 {
 
 .cv-list {
     list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.cv-list p {
+    margin: 0;
+}
+
+.cv-list li {
+    margin-bottom: 5px;
+}
+
+.normal {
+    font-weight: normal;
 }
